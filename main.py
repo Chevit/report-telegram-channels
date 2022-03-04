@@ -10,7 +10,8 @@ from telethon.sync import TelegramClient
 from telethon import functions, types
 
 #CHANLIST_URL = 'https://github.com/fk-war-in-ukraine/report-telegram-channels/raw/master/dirty_channels.txt'
-CHANLIST_URL = 'https://github.com/duhast/report-telegram-channels/raw/dev/dirty_channels.txt'
+#CHANLIST_URL = 'https://github.com/duhast/report-telegram-channels/raw/dev/dirty_channels.txt'
+CHANLIST_URL = 'https://github.com/Chevit/report-telegram-channels/blob/781a0b6e6b28fb96e0eff0b2abc6345c355e815f/dirty_channels.txt'
 
 def print_help() -> None:
     print('Usage:')
