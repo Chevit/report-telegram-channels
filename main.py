@@ -63,7 +63,7 @@ if __name__ == '__main__':
                     message=msg
                 ))
                 print('{}: {} - {}'.format(dirty_channel, result, msg))
-                time.sleep(40+random.randint(1, 60))
+                time.sleep(60+random.randint(1, 120))
             except Exception as e:
                 exception_msg = str(e)
                 print('{}: error - {}'.format(dirty_channel, exception_msg))
